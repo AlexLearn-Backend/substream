@@ -12,6 +12,6 @@ App.get('/', (req, res) => res.send('Hello World!'));
 
 
 App.listen(PORT || 5000, async () => {
-  connectDB()
+  await connectDB()
   console.log(`API running at http://localhost:${PORT || 5000}`);
 });

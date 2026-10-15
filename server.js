@@ -8,7 +8,7 @@ import { PORT } from './config/env.js';
 const App = express();
 
 
-App.get('/', (req, res) => res.send('Hello World!'));
+App.get('/', (req, res) => res.send('Welcome to Substream API.'));
 
 
 App.listen(PORT || 5000, async () => {
